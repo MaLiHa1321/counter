@@ -1,0 +1,14 @@
+.bottel{
+    border: 2px solid green;
+    border-radius: 10px;
+
+}
+.bottel img{
+    width: 200px;
+    height: 200px;
+}
+.bottle-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}

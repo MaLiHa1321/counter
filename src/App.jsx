@@ -1,6 +1,8 @@
 import { useState } from 'react'
 
 import './App.css'
+import Header from './Components/header/Header'
+import Bottles from './Components/bottles/Bottles'
 // import Counter from './Counter';
 // import User from './User';
 
@@ -18,6 +20,8 @@ function App() {
 
   return (
     <>
+    <Header></Header>
+    <Bottles></Bottles>
  
       {/* <h1>Vite + React</h1>
       <Counter></Counter>
